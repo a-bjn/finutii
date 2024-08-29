@@ -1,42 +1,88 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+html, body {
+  min-height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  color: #505558;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.app-stretch {
+  width: 100%;
+  min-height: 100vh;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background {
+  background-image: url("src/assets/background_image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.card {
-  padding: 2em;
+.app-header {
+  height: auto;
+  background-color: #3FA3FF;
 }
 
-.read-the-docs {
-  color: #888;
+.app-header .header-content-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 82px;
+  margin-right: 32px;
+}
+
+.app-header .header-content-wrap .information-wrap {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-header .header-content-wrap .logo-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header .header-content-wrap .logo-wrap p {
+  margin: 0;
+}
+
+.app-header .header-content-wrap .information-wrap .information-component {
+  display: flex;
+}
+
+.app-header .header-content-wrap .information-wrap .information-component img{
+  width: 29px;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.big-text {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.medium-text {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.small-text {
+  font-size: 1rem;
+  color: white;
 }
