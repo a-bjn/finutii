@@ -2,6 +2,7 @@ import '../styles/Header.css'
 
 const Header = () => {
     return (
+        <>
         <div className="header-content-wrap">
             <div className="logo-wrap">
                 <p className="big-text">Reparatii Braila</p>
@@ -25,6 +26,7 @@ const Header = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 };
 
