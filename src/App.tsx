@@ -1,34 +1,17 @@
-import './App.css'
+import './styles/App.css'
+import './styles/Carousel.css'
+import './styles/Header.css'
+
+import Header from './components/Header.tsx'
 
 function App() {
   return (
     <>
       <div className="app-container app-stretch background">
         <div className="app-header">
-          <div className="header-content-wrap">
-            <div className="logo-wrap">
-              <p className="big-text">Reparatii Braila</p>
-              <p className="small-text">TV/LCD/LED... CD/DVD AUTO... TELECOMENZI</p>
-            </div>
-            <div className="information-wrap">
-              <div className="information-component">
-                <p className="medium-text">Contact:</p>
-                  <img src="src/assets/telefon.svg"/>
-                <p className="medium-text text-underline">+40 0735156317</p>
-              </div>
-              <div className="information-component">
-                <p className="medium-text">Locatie:</p>
-                  <img src="src/assets/pinpoint.svg"></img>
-                <p className="medium-text text-underline">Str. General Eremia Grigorescu 40</p>
-              </div>
-              <div className="information-component">
-                <p className="medium-text">Program:</p>
-                  <img src="src/assets/calendar.svg"></img>
-                <p className="medium-text text-underline">Luni / Vineri 8:00-17:00</p>
-              </div>
-            </div>
-          </div>
+          <Header/>
         </div>
+        
       </div>
     </>
   )
