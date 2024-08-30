@@ -2,25 +2,38 @@
 .carousel-container {
   width: 80%;
   margin: 0 auto;
-  padding: 20px 0;
 }
+
 
 .carousel-slide {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-self: center;
+  margin: auto;
+}
+
+.carousel-slide img {
+  margin: auto;
 }
 
 .carousel-image {
-  width: 60%;
+  padding-top: 18px;
+  width: 80%;
+  height: 236px;
   transition: transform 0.5s ease, width 0.5s ease;
   opacity: 0.6;
 }
 
+.slick-track {
+  height: 18rem;
+}
+
 .slick-center .carousel-image {
-  width: 100%;
-  transform: scale(1.1);
+  width: 95%;
+  transform: scale(1.2);
   opacity: 1;
+  align-self: center;
 }
 
 .slick-prev,

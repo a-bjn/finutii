@@ -3,13 +3,11 @@ import Slider from 'react-slick';
 import '../styles/Carousel.css'
 
 const images: string[] = [
-  'https://via.placeholder.com/300x100?text=Image+1',
-  'https://via.placeholder.com/300x100?text=Image+2',
-  'https://via.placeholder.com/300x100?text=Image+3',
-  'https://via.placeholder.com/300x100?text=Image+4',
-  'https://via.placeholder.com/300x100?text=Image+5',
-  'https://via.placeholder.com/300x100?text=Image+6',
-  'https://via.placeholder.com/300x100?text=Image+7',
+  'image0.png',
+  'image1.png',
+  'image2.png',
+  'image3.png',
+  'image4.png',
 ];
 
 const Carousel: React.FC = () => {
