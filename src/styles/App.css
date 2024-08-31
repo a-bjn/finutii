@@ -1,8 +1,8 @@
-
 html, body {
   min-height: 100vh;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
+  font-style: normal;
   text-rendering: optimizeLegibility;
   color: #505558;
   font-size: 16px;
@@ -25,4 +25,35 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.big-text {
+  font-size: 2rem;
+  color: white;
+}
+
+.medium-text {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.small-text {
+  font-size: 1rem;
+  color: white;
+}
+
+.bold-text {
+  font-weight: 900;
+}
+
+.thicker-text {
+  font-weight: 700;
+}
+
+.thin-text {
+  font-weight: 300;
 }
