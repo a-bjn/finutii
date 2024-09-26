@@ -3,25 +3,25 @@ import './styles/Carousel.css'
 import './styles/Header.css'
 
 import Header from './components/Header.tsx'
-import Carousel from './components/Carousel.tsx'
-import Footer from './components/Footer.tsx'
-import InfoBoard from './components/InfoBoard.tsx'
+import Welcome from './components/Welcome.tsx'
+import Showcase from './components/Showcase.tsx'
+import About from './components/About.tsx'
 
 function App() {
   return (
     <>
-      <div className="app-container app-stretch background">
+      <div className="app-container app-stretch">
         <div className="app-header">
           <Header/>
         </div>
-        <div className="carousel">
-          <Carousel/>
+        <div className="welcome">
+          <Welcome/>
         </div>
-        <div className="info-board">
-          <InfoBoard/>
+        <div className="about-us">
+          <About/>
         </div>
-        <div className="footer">
-          <Footer/>
+        <div className="showcase">
+          <Showcase/>
         </div>
       </div>
     </>

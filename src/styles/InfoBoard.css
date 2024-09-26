@@ -1,30 +1,34 @@
 .infoboard-wrap {
     width: 100%;
     height: 24rem;
-    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
 }
 
 .infoboard-wrap .infoboard-container {
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 3px #000000a4;
 }
 
 .infoboard-wrap .infoboard-container .top-bar-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
     height: fit-content;
-    background-color: #ffff;
     margin-bottom: 1.5rem;
 }
 
 .infoboard-wrap .infoboard-container .button-container {
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 80%;
     margin-left: 2rem;
     margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .infoboard-wrap .infoboard-container .button-container .button-wrap {
@@ -34,14 +38,14 @@
 .infoboard-wrap .infoboard-container .button-container .button-wrap button {
     height: 100%;
     background-color: #ffff;
-    color: rgba(0, 0, 0, 0.80);
+    color: rgba(0, 0, 0, 0.70);
     font-weight: 500;
     font-size: 1.1rem;
     cursor: pointer;
     border: none;
     border-radius: 0;
     padding: 1rem 2rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    border-bottom: 1px solid rgb(255, 78, 39);
 }
 
 .infoboard-wrap .infoboard-container .button-container .button-wrap button:hover {
@@ -52,5 +56,4 @@
 
 .infoboard-wrap .infoboard-container .info-section {
     height: auto;
-    background-color: aqua;
 }

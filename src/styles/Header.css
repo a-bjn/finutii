@@ -1,25 +1,37 @@
 .app-header {
-  height: auto;
-  background-color: #3FA3FF;
+  height: 5rem;
+  background-color: rgb(255, 233, 217);
   box-shadow: 0 1px 3px #000000a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
 .app-header .header-content-wrap {
+  width: 95%;
   display: flex;
   justify-content: space-between;
-  margin-left: 82px;
-  margin-right: 32px;
 }
 
 .app-header .header-content-wrap .information-wrap {
-  width: 60%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(40, 56, 81);
+  border-radius: 2rem;
+  padding: 1rem;
 }
 
 .app-header .header-content-wrap .logo-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header .header-content-wrap .logo-wrap .logo-wrap-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,13 +40,24 @@
 
 .app-header .header-content-wrap .logo-wrap p {
   margin: 0;
+  color: rgb(22, 30, 43);
+}
+
+.app-header .header-content-wrap .information-wrap .information-component p {
+  margin: 0;
+  color: rgb(255, 249, 244);
 }
 
 .app-header .header-content-wrap .information-wrap .information-component {
   display: flex;
+  justify-content: space-between;
 }
 
-.app-header .header-content-wrap .information-wrap .information-component img{
+.app-header .header-content-wrap .information-wrap .information-component p:last-child {
+  margin-left: 12px;
+}
+
+.app-header .header-content-wrap .information-wrap .information-component img {
   width: 28px;
   margin-left: 12px;
   margin-right: 10px;

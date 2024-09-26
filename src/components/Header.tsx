@@ -4,29 +4,28 @@ import '../styles/App.css'
 const Header = () => {
     return (
         <>
-        <div className="header-content-wrap">
-            <div className="logo-wrap">
-                <p className="big-text thicker-text">Reparatii TV Braila</p>
-                <p className="small-text thin-text">TV/LCD/LED... CD/DVD AUTO... TELECOMENZI</p>
+            <div className="header-content-wrap">
+                <div className="logo-wrap">
+                    <div className="logo-wrap-title">
+                        <p className="big-text thick-text">Reparatii TV Braila</p>
+                        <p className="small-text thin-text">TV/LCD/LED... CD/DVD AUTO... TELECOMENZI</p>
+                    </div>
+                </div>
+                <div className="information-wrap">
+                    <div className="information-component">
+                        <p className="medium-text thick-text">Contact:</p>
+                        <p className="medium-text thin-text">+40 0735156317</p>
+                    </div>
+                    <div className="information-component">
+                        <p className="medium-text thick-text">Locatie:</p>
+                        <p className="medium-text thin-text">Str. General Eremia Grigorescu 40</p>
+                    </div>
+                    <div className="information-component">
+                        <p className="medium-text thick-text">Program:</p>
+                        <p className="medium-text thin-text">Luni / Vineri 8:00-17:00</p>
+                    </div>
+                </div>
             </div>
-            <div className="information-wrap">
-                <div className="information-component">
-                <p className="medium-text thicker-text">Contact:</p>
-                    <img src="src/assets/telefon.svg"/>
-                <p className="medium-text text-underline thin-text">+40 0735156317</p>
-                </div>
-                <div className="information-component">
-                <p className="medium-text thicker-text">Locatie:</p>
-                    <img src="src/assets/pinpoint.svg"></img>
-                <p className="medium-text text-underline thin-text">Str. General Eremia Grigorescu 40</p>
-                </div>
-                <div className="information-component">
-                <p className="medium-text thicker-text">Program:</p>
-                    <img src="src/assets/calendar.svg"></img>
-                <p className="medium-text text-underline thin-text">Luni / Vineri 8:00-17:00</p>
-                </div>
-            </div>
-        </div>
         </>
     )
 };
