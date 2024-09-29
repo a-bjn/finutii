@@ -5,6 +5,7 @@ import './styles/Header.css'
 import Header from './components/Header.tsx'
 import Welcome from './components/Welcome.tsx'
 import About from './components/About.tsx'
+import Footer from './components/Footer.tsx'
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </div>
         <div className="about-us">
           <About/>
+        </div>
+        <div className="footer">
+          <Footer/>
         </div>
       </div>
     </>
