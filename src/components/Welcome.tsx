@@ -7,21 +7,24 @@ const Welcome = () => {
             <div className="welcome-container">
                 <div className="welcome-title">
                     <p>Reparatii Televizoare</p>
+                    <div className="welcome-sub-title">
+                        <p>Servicii profesionale de reparatii TV</p>
+                    </div>
                 </div>
                 <div className="servicii">
                     <div className="bubble-border">
                         <p>
-                            Reparatii televizoare si alte electronice
+                            Service televizoare si alte electronice
                         </p>
                     </div>
                     <div className="bubble-border">
                         <p>
-                            Telecomenzi plus baterii 
+                            Telecomenzi si baterii 
                         </p>
                     </div>
                     <div className="bubble-border">
                         <p>
-                            Xerox copiator si laminare
+                            Chei auto 
                         </p>
                     </div>
                 </div>

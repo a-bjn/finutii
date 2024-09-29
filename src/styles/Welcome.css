@@ -16,22 +16,30 @@
 
 .welcome-container .welcome-title {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     height: auto;
     animation: slideUpFadeIn 2s ease-out forwards;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+    font-family: "Marcellus", system-ui;
+    color: rgb(255, 252, 222);
+    text-align: center;
 }
 
 .welcome-container .welcome-title p {
-    font-family: "Marcellus", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 9rem;
-    color: rgb(255, 252, 222);
-    text-align: center;
     margin: 0;
 }
+
+.welcome-container .welcome-title p {
+    font-size: 8rem;
+}
+
+.welcome-container .welcome-title .welcome-sub-title p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
 
 .welcome-container .servicii {
     display: flex;
@@ -42,21 +50,21 @@
 .welcome-container .servicii .bubble-border {
     width: 12rem;
     height: 12rem;
-    border: 1px solid rgb(255, 252, 222);
+    border: 2px solid rgb(255, 252, 222);
     border-radius: 100%;
     margin: 32px;
     padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 5px #000000;
+    box-shadow: 0 4px 8px #000000;
 }
 
 .welcome-container .servicii .bubble-border p {
     font-size: 1.7rem;
+    font-weight: 400;
     color: rgb(255, 252, 222);
     text-align: center;
-    text-shadow: -1px 0 rgba(0, 0, 0, 0.4), 0 1px rgba(0, 0, 0, 0.4), 1px 0 rgba(0, 0, 0, 0.1), 0 -1px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes slideUpFadeIn {

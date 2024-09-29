@@ -4,7 +4,6 @@ import './styles/Header.css'
 
 import Header from './components/Header.tsx'
 import Welcome from './components/Welcome.tsx'
-import Showcase from './components/Showcase.tsx'
 import About from './components/About.tsx'
 
 function App() {
@@ -19,9 +18,6 @@ function App() {
         </div>
         <div className="about-us">
           <About/>
-        </div>
-        <div className="showcase">
-          <Showcase/>
         </div>
       </div>
     </>
