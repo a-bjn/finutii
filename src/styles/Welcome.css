@@ -11,20 +11,20 @@
 }
 
 .welcome-container {
-    width: 50%;
+    width: 100%;
 }
 
 .welcome-container .welcome-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
     height: auto;
     animation: slideUpFadeIn 2s ease-out forwards;
     text-shadow: 8px 8px 6px rgb(0, 0, 0);
     font-family: "Marcellus", system-ui;
     color: rgb(255, 252, 222);
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .welcome-container .welcome-title .welcome-sub-title p {

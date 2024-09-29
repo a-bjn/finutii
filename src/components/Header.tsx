@@ -6,23 +6,27 @@ const Header = () => {
         <>
             <div className="header-content-wrap">
                 <div className="logo-wrap">
-                    <div className="logo-wrap-title">
-                        <p className="big-text thick-text">Reparatii TV Braila</p>
-                        <p className="small-text thin-text">TV/LCD/LED... CD/DVD AUTO... TELECOMENZI</p>
-                    </div>
+                    <p className="big-text thick-text">Reparatii TV Braila</p>
+                    <p className="small-text thin-text">TV/LCD/LED... CD/DVD AUTO... TELECOMENZI</p>
                 </div>
                 <div className="information-wrap">
                     <div className="information-component">
-                        <p className="medium-text thick-text">Contact:</p>
-                        <p className="medium-text thin-text">+40 0735156317</p>
+                        <div className="info-title">
+                            <p>Contact:</p>
+                        </div>
+                        <p>+40 0735156317</p>
                     </div>
                     <div className="information-component">
-                        <p className="medium-text thick-text">Locatie:</p>
-                        <p className="medium-text thin-text">Str. General Eremia Grigorescu 40 Langa Oificul Postal</p>
+                        <div className="info-title">
+                            <p>Locatie:</p>
+                        </div>
+                        <p>Str. General Eremia Grigorescu 40 Langa Oficiul Postal</p>
                     </div>
                     <div className="information-component">
-                        <p className="medium-text thick-text">Program:</p>
-                        <p className="medium-text thin-text">Luni - Vineri 8:00-17:00</p>
+                        <div className="info-title">
+                            <p>Program:</p>
+                        </div>
+                        <p>Luni - Vineri 8:00-17:00</p>
                     </div>
                 </div>
             </div>
