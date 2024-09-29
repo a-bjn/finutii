@@ -15,9 +15,9 @@ const About = () => {
                             <p>Cine suntem?</p>
                         </div>
                         <div className="info-box">
-                            <p>Welcome to reparatii TV Braila, your go-to local business for expert TV repair services, TV remote sales, and electronics fixing in Braila.
-                            We pride ourselves on being a modern and tech-savvy TV repair shop dedicated to providing top-notch solutions for all fo your electronic needs.
-                            Our mission is to deliver reliable services and create a seamless experience for our customers.
+                            <p>Reparatii TV Braila este destinatia ta locala pentru servicii de incredere de reparatii TV si electronice. 
+                            Cu o experienta de peste 15 ani in electronistica, suntem specializați în diagnosticarea și remedierea unei game largi de probleme electronice. Angajamentul nostru 
+                            este de a oferi reparații de înaltă calitate în timp util, asigurând satisfacția clienților și buna funcționare a dispozitivelor dumneavoastră.
                             </p>
                         </div>
                         <div className="about-sub-title">

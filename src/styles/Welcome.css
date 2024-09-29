@@ -21,10 +21,16 @@
     width: 100%;
     height: auto;
     animation: slideUpFadeIn 2s ease-out forwards;
-    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+    text-shadow: 8px 8px 6px rgb(0, 0, 0);
     font-family: "Marcellus", system-ui;
     color: rgb(255, 252, 222);
     text-align: center;
+}
+
+.welcome-container .welcome-title .welcome-sub-title p {
+    font-size: 2rem;
+    font-weight: 400;
+    text-shadow: 4px 2px 3px rgb(0, 0, 0);
 }
 
 .welcome-container .welcome-title p {
@@ -34,12 +40,6 @@
 .welcome-container .welcome-title p {
     font-size: 8rem;
 }
-
-.welcome-container .welcome-title .welcome-sub-title p {
-    font-size: 2rem;
-    font-weight: 400;
-}
-
 
 .welcome-container .servicii {
     display: flex;
@@ -57,14 +57,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px #000000;
+    box-shadow: 4px 10px 8px #000000;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
 }
 
 .welcome-container .servicii .bubble-border p {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 400;
-    color: rgb(255, 252, 222);
+    color: rgb(255, 253, 238);
+    text-shadow: 4px 2px 3px rgb(0, 0, 0);
     text-align: center;
+    z-index: 1;
 }
 
 @keyframes slideUpFadeIn {

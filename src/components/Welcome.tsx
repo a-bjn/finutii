@@ -8,24 +8,18 @@ const Welcome = () => {
                 <div className="welcome-title">
                     <p>Reparatii Televizoare</p>
                     <div className="welcome-sub-title">
-                        <p>Servicii profesionale de reparatii TV</p>
+                        <p>Servicii rapide si de incredere pentru toate marcile de televizoare</p>
                     </div>
                 </div>
                 <div className="servicii">
                     <div className="bubble-border">
-                        <p>
-                            Service televizoare si alte electronice
-                        </p>
+                        <p>Service televizoare si alte electronice</p>
                     </div>
                     <div className="bubble-border">
-                        <p>
-                            Telecomenzi si baterii 
-                        </p>
+                        <p>Oferim telecomenzi si baterii </p>
                     </div>
                     <div className="bubble-border">
-                        <p>
-                            Chei auto 
-                        </p>
+                        <p>Reparam chei auto</p>
                     </div>
                 </div>
             </div>
