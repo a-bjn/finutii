@@ -81,3 +81,45 @@
         opacity: 1;
     }
 }
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .welcome {
+        height: 40vh;
+        background-size: 100% 100%;
+    }
+
+    .welcome-container .welcome-title {
+        height: 70%;
+        margin: 0;
+    }
+
+    .welcome-container .welcome-title p {
+        font-size: 2.8rem;
+        padding: 0.5rem;
+    }
+
+    .welcome-container .welcome-title .welcome-sub-title p {
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+
+    .welcome-container .contact-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .welcome-container .contact-button button{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        background-color: rgb(255, 254, 235);
+        color: rgb(31, 22, 10);
+        font-weight: 400;
+        font-size: 1.2rem;
+        border-radius: 2rem;
+        font-family: "Marcellus", system-ui;
+    }
+}

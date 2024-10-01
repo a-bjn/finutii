@@ -13,17 +13,10 @@
 
 .carousel-image {
   position: relative;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.643);
   border-radius: 0.5rem;
-  width: 18rem;
-  height: 12rem;
   transition: transform 0.5s ease, width 0.5s ease;
   opacity: 0.5;
   z-index: -1;
-}
-
-.slick-track {
-  height: 16rem;
 }
 
 .slick-center .carousel-image {
@@ -55,39 +48,19 @@
   opacity: 1 !important;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1350px) {
+
+@media screen and (min-width: 100px) and (max-width: 768px) {  
+  .carousel {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .slick-center .carousel-image {
+    transform: scale(1.2);
+  }
+
   .carousel-container {
-    width: 55rem;
-  }
-
-  .carousel-image {
-    width: 18rem;
-    height: 12rem;
-  }
-  
-  .slick-track {
-    height: 16rem;
-  }  
-}
-
-@media screen and (min-width: 1350px) {
-  .carousel-container {
-    width: 40rem;
-  }
-
-  .carousel-image {
-    width: 13rem;
-    height: 8rem;
-  }
-  
-  .slick-track {
-    height: 12rem;
-  }  
-}
-
-@media screen and (min-width: 1440px) {
-  .carousel-container {
-    width: 42rem;
+    width: 20em;
   }
 
   .carousel-image {
@@ -100,32 +73,74 @@
   }  
 }
 
-@media screen and (min-width: 1650px) {
+@media screen and (min-width: 1000px) and (max-width: 1549px) {
   .carousel-container {
-    width: 48rem;
+    width: 66rem;
   }
 
   .carousel-image {
-    width: 16rem;
-    height: 10rem;
-  }
-  
-  .slick-track {
-    height: 14rem;
-  }  
-}
-
-@media screen and (min-width: 1920px) {
-  .carousel-container {
-    width: 55rem;
-  }
-
-  .carousel-image {
-    width: 18rem;
+    width: 22rem;
     height: 12rem;
   }
   
   .slick-track {
     height: 16rem;
+  }  
+}
+
+@media screen and (min-width: 1440px) {
+  .slick-center .carousel-image {
+    transform: scale(1.3);
+  }
+
+  .carousel-container {
+    width: 72rem;
+  }
+
+  .carousel-image {
+    width: 24rem;
+    height: 13rem;
+  }
+  
+  .slick-track {
+    height: 17rem;
+  }  
+}
+
+@media screen and (min-width: 1650px) {
+  .slick-center .carousel-image {
+    transform: scale(1.3);
+  }
+
+  .carousel-container {
+    width: 76rem;
+  }
+
+  .carousel-image {
+    width: 25rem;
+    height: 13rem;
+  }
+  
+  .slick-track {
+    height: 17rem;
+  }  
+}
+
+@media screen and (min-width: 1920px) {
+  .slick-center .carousel-image {
+    transform: scale(1.3);
+  }
+
+  .carousel-container {
+    width: 84rem;
+  }
+
+  .carousel-image {
+    width: 28rem;
+    height: 14rem;
+  }
+  
+  .slick-track {
+    height: 18rem;
   }  
 }

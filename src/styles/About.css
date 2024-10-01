@@ -12,7 +12,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
     margin: 0;
 }
 
@@ -24,37 +23,61 @@
 }
 
 .about-container .box-wrap .about-wrap {
-    width: 45%;
-    height: 20rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
-.about-container  p {
+.about-container p {
     font-family: "Marcellus", system-ui;
     font-weight: 400;
     font-style: normal;
     color: rgb(14, 39, 80);
-    text-align: center;
+    text-align: justify;
     margin: 0;
 }
 
 .about-container .about-title p {
     font-size: 4.5rem;
-    margin-bottom: 2rem;
 }
 
-.about-container .box-wrap .about-wrap .info-box p {
-    font-size: 1rem;
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .about-container {
+        padding: 1rem;
+    }
+
+    .about-container .about-title p {
+        font-size: 3rem;
+        margin: 0;
+        border-bottom: 2px solid rgb(14, 39, 80);
+        margin-bottom: 2rem;
+    }
+    
+    .about-container .box-wrap .about-wrap .about-sub-title p {
+        font-size: 1.7rem;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    .about-container .box-wrap .about-wrap .info-box p {
+        font-size: 1rem;
+    }
+
+    .about-container .box-wrap .about-wrap {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .about-container .box-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-.about-container .box-wrap .about-wrap .about-sub-title p {
-    font-size: 1.7rem;
-}
-
-
-@media screen and (min-width: 1000px) and (max-width: 1349px) {
+@media screen and (min-width: 1000px) {
     .about-container .box-wrap {
         display: flex;
         justify-content: space-between;
@@ -63,12 +86,10 @@
     }
 
     .about-container .box-wrap .about-wrap {
-        width: 70rem;
-        height: 16rem;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-bottom: 2rem;
     }
 
     .about-container .box-wrap .about-wrap .info-container {
@@ -77,28 +98,18 @@
         flex-direction: column;
         text-align: center;
         justify-content: space-evenly;
-    }    
-}
-
-@media screen and (min-width: 1350px){
-    .about-container .box-wrap .about-wrap {
-        height: 22rem;
     }
-    
-    .about-container .box-wrap .about-wrap .info-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: center;
+
+    .about-container .about-title p {
+        font-size: 4.5rem;
     }
-}
 
-@media screen and (min-width: 1650px) {
-    .about-container .box-wrap .about-wrap {
-        height: 20rem;
+    .about-container .box-wrap .about-wrap .info-container .about-sub-title p {
+        font-size: 2.8rem;
+        padding: 1rem;
     }
-}
 
-@media screen and (min-width: 1920px) {
-
+    .about-container .box-wrap .about-wrap .info-container .info-box p {
+        font-size: 1.4rem;
+    } 
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
 import '../styles/Carousel.css'
+import { useState, useEffect } from 'react';
+
 
 const images: string[] = [
   'image0.png',
@@ -12,6 +14,25 @@ const images: string[] = [
 ];
 
 const Carousel: React.FC = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+      const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+      };
+
+      window.addEventListener('resize', handleResize);
+      handleResize();
+
+      return () => {
+      window.removeEventListener('resize', handleResize);
+      };
+  }, []);
+
+  var centerPadding = isMobile ? '50px' : '0px';
+
+  console.log(centerPadding)
+
   const settings = {
     dots: true,
     infinite: true,
@@ -19,7 +40,7 @@ const Carousel: React.FC = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
-    centerPadding: '0px',
+    centerPadding: centerPadding,
     autoplay: true,
     autoplaySpeed: 3000,
     cssEase: 'ease-in-out',
@@ -34,6 +55,8 @@ const Carousel: React.FC = () => {
   };
 
   return (
+    
+
     <div className="carousel-container">
       <Slider {...settings}>
         {images.map((img, index) => (

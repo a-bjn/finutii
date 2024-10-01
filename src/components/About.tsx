@@ -17,12 +17,11 @@ const About = () => {
                             </div>
                             <div className="info-box">
                                 <p>Reparatii TV Braila este destinatia ta locala pentru servicii de incredere de reparatii TV si electronice. 
-                                Cu o experienta de peste 15 ani in electronistica, suntem specializați în diagnosticarea și remedierea unei game largi de probleme electronice. Angajamentul nostru 
+                                Cu o experienta de peste 30 ani in electronistica, suntem specializați în diagnosticarea și remedierea unei game largi de probleme electronice. Angajamentul nostru 
                                 este de a oferi reparații de înaltă calitate în timp util, asigurând satisfacția clienților și buna funcționare a dispozitivelor dumneavoastră.
                                 </p>
                             </div>
                         </div>
-                        
                         <div className="info-container">
                             <div className="about-sub-title">
                                 <p>Cu ce ne ocupam?</p>
@@ -34,7 +33,6 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        
                     </div>
                     <div className="carousel">
                         <Carousel/>
