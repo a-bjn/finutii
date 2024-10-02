@@ -1,5 +1,6 @@
 .app-header {
-  height: 5rem;
+  height: auto;
+  padding: 1rem 0 1rem 0;
   background-color: rgb(255, 233, 217);
   box-shadow: 0 1px 3px #000000a4;
   display: flex;
@@ -8,7 +9,9 @@
 }
   
 .header-content-wrap {
-  width: 95%;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
   display: flex;
   justify-content: space-between;
 }
@@ -104,13 +107,13 @@
 
 @media screen and (min-width: 1650px) {
   .header-content-wrap .information-wrap .information-component p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 300;
   }
   
   .header-content-wrap .information-wrap .information-component .info-title p {
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
 
   .header-content-wrap .information-wrap {
@@ -126,6 +129,6 @@
 
 @media screen and (min-width: 1850px) {
   .header-content-wrap .information-wrap {
-    width: 60%;
+    width: 65%;
   }
 }

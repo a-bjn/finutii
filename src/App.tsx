@@ -6,6 +6,7 @@ import Header from './components/Header.tsx'
 import Welcome from './components/Welcome.tsx'
 import About from './components/About.tsx'
 import Footer from './components/Footer.tsx'
+import Colaboratori from './components/Colaboratori.tsx'
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </div>
         <div className="about-us">
           <About/>
+        </div>
+        <div className="colab">
+          <Colaboratori/>
         </div>
         <div className="footer">
           <Footer/>
