@@ -30,6 +30,32 @@
     margin-bottom: 2rem;
 }
 
+.about-container .box-wrap .services {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container .box-wrap .services .service-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.about-container .box-wrap .services .service-wrap .bullet {
+    margin-left: 2rem;
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(109, 78, 36);
+}
+
+.about-container .box-wrap .services .service-wrap p {
+    font-size: 1.5rem;
+}
+
 .about-container p {
     font-family: "Marcellus", system-ui;
     font-weight: 400;
@@ -38,30 +64,29 @@
     margin: 0;
 }
 
-.about-container .about-title p {
-    font-size: 4.5rem;
-}
-
 @media screen and (min-width: 100px) and (max-width: 768px) {
     .about-container {
         padding: 1rem;
     }
 
     .about-container .about-title p {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 0;
-        border-bottom: 2px solid rgb(14, 39, 80);
+        border-bottom: 1px solid rgb(14, 39, 80);
         margin-bottom: 2rem;
     }
     
     .about-container .box-wrap .about-wrap .about-sub-title p {
-        font-size: 1.7rem;
-        padding: 1rem;
+        font-size: 1.6rem;
+        padding: 0;
         text-align: center;
+        margin-bottom: 1rem;
     }
     
     .about-container .box-wrap .about-wrap .info-box p {
-        font-size: 1rem;
+        padding: 0 0.5rem 0 0.5rem;
+        margin-bottom: 2rem;
+        font-size: 1.1rem;
         text-align: center;
     }
 

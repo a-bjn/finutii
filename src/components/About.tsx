@@ -16,21 +16,28 @@ const About = () => {
                                 <p>Cine suntem?</p>
                             </div>
                             <div className="info-box">
-                                <p>Reparatii TV Braila este destinatia ta locala pentru servicii de incredere de reparatii TV si electronice. 
-                                Cu o experienta de peste 30 ani in electronistica, suntem specializați în diagnosticarea și remedierea unei game largi de probleme electronice. Angajamentul nostru 
-                                este de a oferi reparații de înaltă calitate în timp util, asigurând satisfacția clienților și buna funcționare a dispozitivelor dumneavoastră.
+                                <p>
+                                    Reparatii TV Braila este destinatia ta pentru servicii de incredere si rapide de reparatii 
+                                    TV/LCD/LED. Cu o experienta de peste 30 ani in electronistica, suntem specializați
+                                    în diagnosticarea și remedierea unei game largi de probleme electronice.
                                 </p>
                             </div>
-                        </div>
-                        <div className="info-container">
                             <div className="about-sub-title">
-                                <p>Cu ce ne ocupam?</p>
+                                <p>Serviciile pe care le oferim</p>
                             </div>
-                            <div className="info-box">
-                                <p>Welcome to reparatii TV Braila, your go-to local business for expert TV repair services, TV remote sales, and electronics fixing in Braila.
-                                We pride ourselves on being a modern and tech-savvy TV repair shop dedicated to providing top-notch solutions for all fo your electronic needs.
-                                Our mission is to deliver reliable services and create a seamless experience for our customers.
-                                </p>
+                            <div className="services">
+                                <div className="service-wrap">
+                                    <div className="bullet"/>
+                                    <p>Reparatii Televizoare</p>
+                                </div>
+                                <div className="service-wrap">
+                                    <div className="bullet"/>
+                                    <p>Telecomenzi TV</p>
+                                </div>
+                                <div className="service-wrap">
+                                    <div className="bullet"/>
+                                    <p>Chei Auto</p>
+                                </div>
                             </div>
                         </div>
                     </div>

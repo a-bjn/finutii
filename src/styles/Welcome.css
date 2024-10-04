@@ -28,8 +28,7 @@
 }
 
 .welcome-container .welcome-title .welcome-sub-title p {
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 4rem;
     text-shadow: 4px 2px 3px rgb(0, 0, 0);
 }
 
@@ -48,8 +47,8 @@
 }
 
 .welcome-container .servicii .bubble-border {
-    width: 12rem;
-    height: 12rem;
+    width: 14rem;
+    height: 14rem;
     border: 3px solid rgb(255, 252, 222);
     border-radius: 100%;
     margin: 32px;
@@ -59,12 +58,12 @@
     align-items: center;
     box-shadow: 4px 10px 8px #000000;
     background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
 }
 
 .welcome-container .servicii .bubble-border p {
-    font-size: 1.8rem;
-    font-weight: 400;
+    font-size: 2.2rem;
+    font-weight: 300;
     color: rgb(255, 253, 238);
     text-shadow: 4px 2px 3px rgb(0, 0, 0);
     text-align: center;

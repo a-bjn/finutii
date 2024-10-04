@@ -1,7 +1,7 @@
 .colab {
     width: 100%;
     height: auto;
-    background-color: rgb(255, 246, 236);
+    background-color: rgb(255, 248, 239);
     display: flex;
     justify-content: center;
     align-self: center;
@@ -43,22 +43,12 @@
         padding: 1rem;
     }
 
-    .colab-container .colab-title-wrap .colab-title p {
-        font-size: 3rem;
-        border-bottom: 2px solid rgb(14, 39, 80);
-        margin-bottom: 2rem;
-    }
-
     .colab-container .colab-title-wrap .colab-info p {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 }
 
-
 @media screen and (min-width: 1000px) {
-    .colab-container .colab-title-wrap .colab-title p {
-        font-size: 5rem;
-    }
     
     .colab-container .colab-title-wrap .colab-info p {
         font-size: 2rem;

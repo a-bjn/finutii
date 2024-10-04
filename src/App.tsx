@@ -6,7 +6,8 @@ import Header from './components/Header.tsx'
 import Welcome from './components/Welcome.tsx'
 import About from './components/About.tsx'
 import Footer from './components/Footer.tsx'
-import Colaboratori from './components/Colaboratori.tsx'
+import Brands from './components/Brands.tsx'
+import Contact from './components/Contact.tsx'
 
 function App() {
   return (
@@ -18,11 +19,14 @@ function App() {
         <div className="welcome">
           <Welcome/>
         </div>
+        <div className="contact">
+          <Contact/>
+        </div>
         <div className="about-us">
           <About/>
         </div>
         <div className="colab">
-          <Colaboratori/>
+          <Brands/>
         </div>
         <div className="footer">
           <Footer/>

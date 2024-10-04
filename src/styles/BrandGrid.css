@@ -17,11 +17,7 @@
     padding: 0.5rem;
     border-radius: 1rem;
     transition: background-color 0.3s ease;
-    background-color: rgb(255, 233, 217);
-}
-
-.logo-wrapper:hover {
-    background-color: #e0e0e0;
+    background-color: rgb(255, 238, 227);
 }
 
 .brand-logo {

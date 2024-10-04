@@ -23,7 +23,7 @@ const Header = () => {
             <div className="header-content-wrap">
                 <div className="logo-wrap">
                     <p className="big-text thick-text">Reparatii TV Braila</p>
-                    <p className="small-text thin-text">TV/LCD/LED... CD/DVD AUTO... TELECOMENZI</p>
+                    <p className="small-text thin-text">TV/LCD/LED AUTO TELECOMENZI</p>
                 </div>
                 {
                     isMobile ? (<></>) : (

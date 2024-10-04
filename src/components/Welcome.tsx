@@ -29,7 +29,7 @@ const Welcome = () => {
                 <div className="welcome-title">
                     <p>Reparatii Televizoare</p>
                     <div className="welcome-sub-title">
-                        <p>Servicii rapide si de incredere pentru toate marcile de televizoare</p>
+                        <p>Servicii rapide si de incredere</p>
                     </div>
                 </div>
                 {
@@ -40,13 +40,13 @@ const Welcome = () => {
                     ) : (
                         <div className="servicii">
                             <div className="bubble-border">
-                                <p>Service televizoare si alte electronice</p>
+                                <p>Telecomenzi TV</p>
                             </div>
                             <div className="bubble-border">
-                                <p>Oferim telecomenzi si baterii </p>
+                                <p>Service televizoare TV/LCD/LED</p>
                             </div>
                             <div className="bubble-border">
-                                <p>Reparam chei auto</p>
+                                <p>Chei auto</p>
                             </div>
                         </div>
                     )

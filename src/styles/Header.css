@@ -104,7 +104,6 @@
   }
 }
 
-
 @media screen and (min-width: 1650px) {
   .header-content-wrap .information-wrap .information-component p {
     font-size: 1.4rem;
@@ -117,18 +116,12 @@
   }
 
   .header-content-wrap .information-wrap {
-    width: 70%;
-  }
-}
-
-@media screen and (min-width: 1700px) {
-  .header-content-wrap .information-wrap {
-    width: 65%;
+    width: 80%;
   }
 }
 
 @media screen and (min-width: 1850px) {
   .header-content-wrap .information-wrap {
-    width: 65%;
+    width: 70%;
   }
 }

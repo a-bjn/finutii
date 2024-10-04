@@ -122,8 +122,8 @@
   }  
 
   .custom-arrow {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
   }
 
   .custom-arrow svg {
@@ -132,11 +132,11 @@
   }
 
   .custom-prev-arrow {
-    left: -30px;
+    left: -22px;
   }
 
   .custom-next-arrow {
-    right: -30px;
+    right: -22px;
   }
 }
 
