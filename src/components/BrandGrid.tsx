@@ -1,4 +1,5 @@
 import '../styles/BrandGrid.css'
+import '../styles/App.css'
 
 interface Brand {
   name: string;

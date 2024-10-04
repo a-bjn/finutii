@@ -3,7 +3,7 @@
 }
 
 .footer-container {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
@@ -20,24 +20,6 @@
     color: rgb(255, 226, 188);
     margin: 0;
     font-weight: 300;
+    font-size: 0.8rem;
 }
 
-.footer-container .footer-wrap .footer-info {
-    height: 6rem;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: self-start;
-}
-
-.footer-container .footer-wrap .footer-info .footer-info-wrap {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.footer-container .footer-wrap .footer-info .footer-info-wrap .info-title p {
-    margin-right: 1rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-}

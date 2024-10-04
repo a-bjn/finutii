@@ -7,10 +7,6 @@
     flex-direction: column;
 }
 
-.map button {
-    background-color: rgb(109, 78, 36);
-}
-
 .map-container {
     width: 100%;
     height: 100%;

@@ -2,6 +2,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import '../styles/Map.css'
+import '../styles/App.css'
 
 // Custom Leaflet icon to avoid default marker icon issues
 const customIcon = new L.Icon({

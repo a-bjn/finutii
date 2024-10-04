@@ -9,8 +9,8 @@ const Brands = () => {
                 <div className="colab-title-wrap">
                     <div className="colab-info">
                         <p>
-                            Service-ul nostru de reparatii TV lucreaza cu o 
-                            gama larga de brand-uri de televizoare.
+                        Service-ul nostru de reparații TV lucrează cu o gamă largă 
+                        de brand-uri de televizoare.
                         </p>
                     </div>
                 </div>

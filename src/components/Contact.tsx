@@ -25,7 +25,7 @@ const Contact = () => {
                         <Phone size={32} style={{ marginRight: '12px' }} className="text-gray-600" />
                         <div className="data-info">
                             <p className="info-title">Telefon:</p>
-                            <p className="info">+40 735 156 317</p>
+                            <p className="info">+40 729 026 656</p>
                         </div>
                     </div>
                     <div className="contact-data-wrap">
@@ -46,7 +46,7 @@ const Contact = () => {
                 <div className="map">
                     <Map/>
                     <button onClick={openGoogleMapsDirections}>
-                        Open Google Maps Directions
+                        Indicații către service
                     </button>
                 </div>
             </div>

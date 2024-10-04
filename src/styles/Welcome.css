@@ -46,6 +46,11 @@
     justify-content: center;
 }
 
+.welcome-container .contact-button button {
+    background-color: rgb(255, 254, 235);
+    color: rgb(31, 22, 10);
+}
+
 .welcome-container .servicii .bubble-border {
     width: 14rem;
     height: 14rem;
@@ -117,11 +122,8 @@
         padding-right: 2rem;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        background-color: rgb(255, 254, 235);
-        color: rgb(31, 22, 10);
         font-weight: 400;
         font-size: 1rem;
         border-radius: 2rem;
-        font-family: "Marcellus", system-ui;
     }
 }

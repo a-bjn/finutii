@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import '../styles/Carousel.css'
 import { useState, useEffect } from 'react';
+import '../styles/App.css'
 
 const images: string[] = [
   'image0.png',

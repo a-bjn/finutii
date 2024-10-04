@@ -27,9 +27,9 @@ const Welcome = () => {
         <>
             <div className="welcome-container">
                 <div className="welcome-title">
-                    <p>Reparatii Televizoare</p>
+                    <p>Reparații Televizoare</p>
                     <div className="welcome-sub-title">
-                        <p>Servicii rapide si de incredere</p>
+                        <p>Servicii rapide și de încredere</p>
                     </div>
                 </div>
                 {

@@ -22,8 +22,8 @@ const Header = () => {
         <>
             <div className="header-content-wrap">
                 <div className="logo-wrap">
-                    <p className="big-text thick-text">Reparatii TV Braila</p>
-                    <p className="small-text thin-text">TV/LCD/LED AUTO TELECOMENZI</p>
+                    <p className="big-text thick-text">Reparații TV Brăila</p>
+                    <p className="small-text thin-text">TV/LCD/LED - CHEI AUTO - TELECOMENZI</p>
                 </div>
                 {
                     isMobile ? (<></>) : (
@@ -36,9 +36,9 @@ const Header = () => {
                             </div>
                             <div className="information-component">
                                 <div className="info-title">
-                                    <p>Locatie:</p>
+                                    <p>Locație:</p>
                                 </div>
-                                <p>Str. General Eremia Grigorescu 40 Langa Oficiul Postal</p>
+                                <p>Str. General Eremia Grigorescu 40, Lângă Oficiul Poștal</p>
                             </div>
                             <div className="information-component">
                                 <div className="info-title">

@@ -17,9 +17,10 @@ const About = () => {
                             </div>
                             <div className="info-box">
                                 <p>
-                                    Reparatii TV Braila este destinatia ta pentru servicii de incredere si rapide de reparatii 
-                                    TV/LCD/LED. Cu o experienta de peste 30 ani in electronistica, suntem specializați
-                                    în diagnosticarea și remedierea unei game largi de probleme electronice.
+                                Reparații TV Brăila este destinația ta pentru servicii de încredere și 
+                                rapide de reparații TV. Cu o experiență de peste 30 de ani în 
+                                electronică, suntem specializați în diagnosticarea și remedierea unei 
+                                game largi de probleme electronice.
                                 </p>
                             </div>
                             <div className="about-sub-title">
@@ -28,7 +29,7 @@ const About = () => {
                             <div className="services">
                                 <div className="service-wrap">
                                     <div className="bullet"/>
-                                    <p>Reparatii Televizoare</p>
+                                    <p>Reparații TV/LCD/LED</p>
                                 </div>
                                 <div className="service-wrap">
                                     <div className="bullet"/>
