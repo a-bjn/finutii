@@ -35,7 +35,7 @@ const Welcome = () => {
                 {
                     isMobile ? (
                         <div className="contact-button">
-                            <button onClick={handleDial}>Contact</button>
+                            <button onClick={handleDial}>Apelati-ne aici!</button>
                         </div>
                     ) : (
                         <div className="servicii">

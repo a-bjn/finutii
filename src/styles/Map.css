@@ -8,8 +8,7 @@
 }
 
 .map-container {
-    width: 100%;
-    height: 100%;
+    width: 95%;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     border-radius: 1rem;
@@ -18,14 +17,16 @@
 }
 
 .map button {
-    width: 100%;
+    width: 95%;
     background-color: rgb(136, 158, 104);
     color: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    padding: 0.8rem 0 0.8rem 0;
 }
 
 @media screen and (max-width: 768px) {
-    .map {
-        height: 17rem;
+    .map-container {
+        height: 12rem;
     }
 }
   

@@ -47,7 +47,8 @@
 }
 
 .welcome-container .contact-button button {
-    background-color: rgb(255, 254, 235);
+    background-color: rgb(255, 252, 222);
+    border: 1px solid rgb(31, 22, 10);
     color: rgb(31, 22, 10);
 }
 
@@ -118,10 +119,7 @@
     }
 
     .welcome-container .contact-button button {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding: 0.5rem 1rem 0.5em 1rem;
         font-weight: 400;
         font-size: 1rem;
         border-radius: 2rem;
