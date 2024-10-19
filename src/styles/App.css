@@ -1,6 +1,7 @@
-html, body {
+html,
+body {
   min-height: 100vh;
-  font-family: "Marcellus", system-ui;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -9,55 +10,29 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
 .app-stretch {
   width: 100%;
   min-height: 100vh;
 }
-
 .app-container {
   display: flex;
   flex-direction: column;
 }
-
 .big-text {
   font-size: 2rem;
 }
-
 .medium-text {
   font-size: 1.5rem;
 }
-
 .small-text {
   font-size: 0.9rem;
 }
-
 .bold-text {
   font-weight: 900;
 }
-
 .thick-text {
   font-weight: 500;
 }
-
 .thin-text {
   font-weight: 300;
-}
-
-::-webkit-scrollbar {
-  width: 0.8rem;
-}
-
-::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0);
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  border: 4px solid transparent;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(0, 0, 0, 0.6);
 }

@@ -1,6 +1,7 @@
 import '../styles/Header.css'
 import '../styles/App.css'
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const Header = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -20,6 +21,10 @@ const Header = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Reparatii TV Braila - Garantie 1 an</title>
+                <meta name="description" content="Reparatii TV Braila ofera garantie 1 an pentru orice reparatie de televizor TV/LCD/LED." />
+            </Helmet>
             <div className="header-content-wrap">
                 <div className="logo-wrap">
                     <p className="big-text thick-text">Reparații TV Brăila</p>

@@ -5,13 +5,11 @@ import { useState, useEffect } from 'react';
 import '../styles/App.css'
 
 const images: string[] = [
-  'image0.png',
-  'image1.png',
-  'image2.png',
-  'image3.png',
-  'image4.png',
-  'image5.png',
-  'image6.png',
+  'image0.webp',
+  'image1.webp',
+  'image2.webp',
+  'image3.webp',
+  'image4.webp',
 ];
 
 const CustomPrevArrow = (props: any) => {

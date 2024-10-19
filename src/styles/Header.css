@@ -1,127 +1,127 @@
 .app-header {
-  height: auto;
-  padding: 1rem 0 1rem 0;
-  background-color: rgb(255, 233, 217);
-  box-shadow: 0 1px 3px #000000a4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	height: auto;
+	padding: 1rem 0 1rem 0;
+	background-color: #ffe9d9;
+	box-shadow: 0 1px 3px #000000a4;
+	display: flex;
+	justify-content: center;
+	align-items: center
 }
-  
+
 .header-content-wrap {
-  width: 100%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  display: flex;
-  justify-content: space-between;
+	width: 100%;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	display: flex;
+	justify-content: space-between
 }
 
 .header-content-wrap .information-wrap {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: rgb(40, 56, 81);
-  border-radius: 2rem;
-  padding: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #283851;
+	border-radius: 2rem;
+	padding: .5rem
 }
 
 .header-content-wrap .logo-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center
 }
 
 .header-content-wrap .logo-wrap p {
-  margin: 0;
-  color: rgb(22, 30, 43);
+	margin: 0;
+	color: #161e2b
 }
 
 .header-content-wrap .information-wrap .information-component p {
-  margin: 0;
-  color: rgb(255, 249, 244);
-  font-size: 1.1rem;
-  font-weight: 300;
+	margin: 0;
+	color: #fff9f4;
+	font-size: 1.1rem;
+	font-weight: 300
 }
 
 .header-content-wrap .information-wrap .information-component .info-title p {
-  font-size: 1.2rem;
-  font-weight: 500;
+	font-size: 1.2rem;
+	font-weight: 500
 }
 
 .header-content-wrap .information-wrap .information-component {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
 }
 
 .header-content-wrap .information-wrap .information-component .info-title p {
-  margin-left: 0 !important;
+	margin-left: 0 !important
 }
 
 .header-content-wrap .information-wrap .information-component p:last-child {
-  margin-left: 0.4rem;
+	margin-left: .4rem
 }
 
-@media screen and (min-width: 100px) and (max-width: 768px) {
-  .header-content-wrap {
-    width: 95%;
-    display: flex;
-    justify-content: center;
-  }
+@media screen and (min-width:100px) and (max-width:768px) {
+	.header-content-wrap {
+		width: 95%;
+		display: flex;
+		justify-content: center
+	}
 }
 
-@media screen and (min-width: 1000px) {
-  .header-content-wrap .information-wrap .information-component p {
-    font-size: 0.85rem;
-  }
+@media screen and (min-width:1000px) {
+	.header-content-wrap .information-wrap .information-component p {
+		font-size: .85rem
+	}
 
-  .header-content-wrap .information-wrap {
-    width: 70%;
-  }
-  
-  .header-content-wrap .information-wrap .information-component .info-title p {
-    font-size: 1rem;
-    font-weight: 500;
-  }
+	.header-content-wrap .information-wrap {
+		width: 70%
+	}
+
+	.header-content-wrap .information-wrap .information-component .info-title p {
+		font-size: 1rem;
+		font-weight: 500
+	}
 }
 
-@media screen and (min-width: 1350px) {
-  .header-content-wrap .information-wrap .information-component p {
-    font-size: 1.1rem;
-    font-weight: 300;
-  }
+@media screen and (min-width:1350px) {
+	.header-content-wrap .information-wrap .information-component p {
+		font-size: 1.1rem;
+		font-weight: 300
+	}
 
-  .header-content-wrap .information-wrap .information-component .info-title p {
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
+	.header-content-wrap .information-wrap .information-component .info-title p {
+		font-size: 1.2rem;
+		font-weight: 600
+	}
 }
 
-@media screen and (min-width: 1350px) and (max-width: 1440px){
-  .header-content-wrap .information-wrap {
-    width: 75%;
-  }
+@media screen and (min-width:1350px) and (max-width:1440px) {
+	.header-content-wrap .information-wrap {
+		width: 75%
+	}
 }
 
-@media screen and (min-width: 1650px) {
-  .header-content-wrap .information-wrap .information-component p {
-    font-size: 1.4rem;
-    font-weight: 300;
-  }
-  
-  .header-content-wrap .information-wrap .information-component .info-title p {
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
+@media screen and (min-width:1650px) {
+	.header-content-wrap .information-wrap .information-component p {
+		font-size: 1.4rem;
+		font-weight: 300
+	}
 
-  .header-content-wrap .information-wrap {
-    width: 80%;
-  }
+	.header-content-wrap .information-wrap .information-component .info-title p {
+		font-size: 1.5rem;
+		font-weight: 500
+	}
+
+	.header-content-wrap .information-wrap {
+		width: 80%
+	}
 }
 
-@media screen and (min-width: 1850px) {
-  .header-content-wrap .information-wrap {
-    width: 70%;
-  }
+@media screen and (min-width:1850px) {
+	.header-content-wrap .information-wrap {
+		width: 70%
+	}
 }

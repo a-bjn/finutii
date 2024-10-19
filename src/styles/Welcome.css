@@ -1,127 +1,114 @@
 .welcome {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../assets/background.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/background.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .welcome-container {
-    width: 100%;
+  width: 100%;
 }
 
 .welcome-container .welcome-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-    animation: slideUpFadeIn 2s ease-out forwards;
-    text-shadow: 8px 8px 6px rgb(0, 0, 0);
-    font-family: "Marcellus", system-ui;
-    color: rgb(255, 252, 222);
-    text-align: center;
-    margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  text-shadow: 8px 8px 6px #000;
+  color: #fffcde;
+  text-align: center;
+  margin: 0 1rem 4rem 1rem;
+}
+
+.welcome-container .welcome-title p {
+  margin: 0;
+  font-size: 9rem;
+  font-weight: 400;
 }
 
 .welcome-container .welcome-title .welcome-sub-title p {
-    font-size: 4rem;
-    text-shadow: 4px 2px 3px rgb(0, 0, 0);
-}
-
-.welcome-container .welcome-title p {
-    margin: 0;
-}
-
-.welcome-container .welcome-title p {
-    font-size: 8rem;
+  font-size: 4rem;
+  font-weight: 300;
+  text-shadow: 4px 2px 3px #000;
 }
 
 .welcome-container .servicii {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .welcome-container .contact-button button {
-    background-color: rgb(255, 252, 222);
-    border: 1px solid rgb(31, 22, 10);
-    color: rgb(31, 22, 10);
+  background-color: #fffcde;
+  border: 1px solid #1f160a;
+  color: #1f160a;
 }
 
 .welcome-container .servicii .bubble-border {
-    width: 14rem;
-    height: 14rem;
-    border: 3px solid rgb(255, 252, 222);
-    border-radius: 100%;
-    margin: 32px;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 4px 10px 8px #000000;
-    background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(4px);
+  width: 16rem;
+  height: 16rem;
+  border: 3px solid #fffcde;
+  border-radius: 100%;
+  margin: 0 2rem 0 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 10px 8px #000;
+  background-color: rgb(0 0 0 / 0.2);
+  backdrop-filter: blur(4px);
+  margin-top: 2rem;
 }
 
 .welcome-container .servicii .bubble-border p {
-    font-size: 2.2rem;
-    font-weight: 300;
-    color: rgb(255, 253, 238);
-    text-shadow: 4px 2px 3px rgb(0, 0, 0);
-    text-align: center;
-    z-index: 1;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #fffdee;
+  text-shadow: 4px 2px 3px #000;
+  text-align: center;
+  z-index: 1;
 }
 
-@keyframes slideUpFadeIn {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .welcome {
+    height: fit-content;
+    background-size: 100% 100%;
+  }
 
-@media screen and (min-width: 100px) and (max-width: 768px) {
-    .welcome {
-        height: fit-content;
-        background-size: 100% 100%;
-    }
+  .welcome-container .welcome-title {
+    height: auto;
+    margin: 0;
+  }
 
-    .welcome-container .welcome-title {
-        height: auto;
-        margin: 0;
-    }
+  .welcome-container .welcome-title p {
+    font-size: 2.4rem;
+    padding: 1rem 0 0 0;
+  }
 
-    .welcome-container .welcome-title p {
-        font-size: 2.8rem;
-        padding: 1rem 0 0 0;
-    }
+  .welcome-container .welcome-title .welcome-sub-title p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding: 0 0.4rem 0 0.4rem;
+    margin-bottom: 1rem;
+  }
 
-    .welcome-container .welcome-title .welcome-sub-title p {
-        font-size: 1.2rem;
-        font-weight: 100;
-        padding: 0 0.4rem 0 0.4rem;
-        margin-bottom: 1rem;
-    }
-
-    .welcome-container .contact-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0.5rem 0 0 0;
-        margin-bottom: 1rem;
-    }
-
-    .welcome-container .contact-button button {
-        padding: 0.5rem 1rem 0.5em 1rem;
-        font-weight: 400;
-        font-size: 1rem;
-        border-radius: 2rem;
-    }
+  .welcome-container .contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0 0 0;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-container .contact-button button {
+    padding: 0.5rem 1rem 0.5em 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 2rem;
+  }
 }

@@ -1,15 +1,1 @@
-.footer {
-    background-color: rgb(31, 22, 10);
-}
-
-.footer-container {
-    padding: 2rem;
-}
-
-.footer-container p {
-    color: rgb(255, 226, 188);
-    margin: 0;
-    font-weight: 300;
-    font-size: 0.8rem;
-}
-
+.footer{background-color:#1f160a}.footer-container{padding:2rem}.footer-container p{color:#ffe2bc;margin:0;font-weight:300;font-size:.8rem}

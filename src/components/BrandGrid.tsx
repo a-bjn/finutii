@@ -7,14 +7,14 @@ interface Brand {
 }
 
 const brands: Brand[] = [
-  { name: 'Samsung', src: 'samsung.svg' },
-  { name: 'LG', src: 'lg.svg' },
-  { name: 'Panasonic', src: 'panasonic.svg' },
-  { name: 'Sony', src: 'sony.svg' },
-  { name: 'Toshiba', src: 'toshiba.svg' },
-  { name: 'Philips', src: 'philips.svg' },
-  { name: 'Hisense', src: 'hisense.svg' },
-  { name: 'Vortex', src: 'vortex.svg' },
+  { name: 'Samsung', src: 'samsung.webp' },
+  { name: 'LG', src: 'lg.webp' },
+  { name: 'Panasonic', src: 'panasonic.webp' },
+  { name: 'Sony', src: 'sony.webp' },
+  { name: 'Toshiba', src: 'toshiba.webp' },
+  { name: 'Philips', src: 'philips.webp' },
+  { name: 'Hisense', src: 'hisense.webp' },
+  { name: 'Vortex', src: 'vortex.webp' },
 ]
 
 export default function BrandLogoGrid() {
