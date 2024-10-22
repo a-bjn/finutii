@@ -1,6 +1,7 @@
 .welcome {
   width: 100%;
   height: 100vh;
+  aspect-ratio: 16 / 9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,6 +9,8 @@
   background-image: url(/background.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .welcome-container {
@@ -33,7 +36,7 @@
 
 .welcome-container .welcome-title .welcome-sub-title p {
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 600;
   text-shadow: 4px 2px 3px #000;
 }
 
@@ -86,13 +89,16 @@
   }
 
   .welcome-container .welcome-title p {
-    font-size: 2.4rem;
+    font-size: 2rem;
+    font-weight: 400;
     padding: 1rem 0 0 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .welcome-container .welcome-title .welcome-sub-title p {
-    font-size: 1.2rem;
-    font-weight: 100;
+    font-size: 1.4rem;
+    font-weight: 300;
     padding: 0 0.4rem 0 0.4rem;
     margin-bottom: 1rem;
   }
@@ -101,7 +107,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem 0 0 0;
     margin-bottom: 1rem;
   }
   

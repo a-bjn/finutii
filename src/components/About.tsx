@@ -1,20 +1,12 @@
-import '../styles/About.css'
-import '../styles/App.css'
-import Carousel from './Carousel.tsx'
-import { Helmet } from 'react-helmet-async';
+import '../styles/About.css';
+import '../styles/App.css';
+import Carousel from './Carousel.tsx';
 
 const About = () => {
+
     return (
         <>
-            <Helmet>
-                <title>Despre noi - Reparatii Televizoare Braila - Service TV/LED/LCD</title>
-                <meta 
-                    name="description" 
-                    content="Reparatii televizoare in Braila, oferim servicii profesionale de reparatii televizoare TV/LCD/LED, telecomenzi TV și chei auto.
-                    Suntem specializati în repararea televizoarelor de toate marcile: Samsung, LG, Philips, Sony, Panasonic." 
-                />
-            </Helmet>
-            <section id="about">
+            <div className="about">
                 <div className="about-container">
                     <div className="about-title">
                         <p>Despre noi</p>
@@ -27,10 +19,8 @@ const About = () => {
                                 </div>
                                 <div className="info-box">
                                     <p>
-                                    Reparații TV Brăila este destinația ta pentru servicii de încredere și 
-                                    rapide de reparații TV. Cu o experiență de peste 30 de ani în 
-                                    electronică, suntem specializați în diagnosticarea și remedierea unei 
-                                    game largi de probleme electronice.
+                                    Reparații TV Brăila este destinația ta pentru servicii de încredere și rapide de reparații TV.
+                                    Cu o experiență de peste 30 de ani în electronică, suntem specializați în diagnosticarea și remedierea unei game largi de probleme.
                                     </p>
                                 </div>
                                 <div className="about-sub-title">
@@ -57,9 +47,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </>
-    )
+    );
 };
 
 export default About;

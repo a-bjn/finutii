@@ -2,14 +2,13 @@ import '../styles/Contact.css';
 import '../styles/App.css';
 import { MapPin, Phone, Clock } from "lucide-react";
 import Map from './Map';
-import { Helmet } from 'react-helmet-async';
 
 const Contact = () => {
     const location = {
         lat: 45.278841319272914,
         lng: 27.96102265046427,
     };
-    
+
     const openGoogleMapsDirections = () => {
         const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${location.lat},${location.lng}`;
         window.open(googleMapsUrl, '_blank');
@@ -17,14 +16,7 @@ const Contact = () => {
 
     return (
         <>
-            <Helmet>
-                <title>Reparații TV Braila - Contact: 0729 026 656</title>
-                <meta 
-                    name="description" 
-                    content="Contactati Reparații TV Braila pentru reparații televizoare de toate tipurile, reparații electronice și telecomenzi. Locația noastră este pe Str. General Eremia Grigorescu 40. Deschisi Luni-Vineri, 8:00-17:00." 
-                />
-            </Helmet>
-            <section id="contact">
+            <div className="contact">
                 <div className="contact-container">
                     <div className="contact-title">
                         <p>Date de contact</p>
@@ -61,9 +53,9 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </>
-    )
+    );
 };
 
 export default Contact;

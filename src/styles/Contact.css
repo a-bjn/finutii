@@ -4,7 +4,7 @@
 }
 
 .contact-container {
-    height: fit-content;
+    height: 100%;
 }
 
 .contact-container .contact-wrap {
@@ -60,6 +60,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .contact {
+        padding: 2rem 0 2rem 0;
+    }
+
     .contact-container .contact-wrap {
         display: flex;
         flex-direction: column;
@@ -68,11 +72,12 @@
         
     .contact-container .contact-data {
         width: 100%;
+        margin: 0 0 2rem 2rem;
     }
 
     .contact-container .contact-title p {
         font-size: 2.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .contact-container .contact-data .contact-data-wrap .info-title {
@@ -103,18 +108,23 @@
 }
 
 @media screen and (min-width: 1000px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        padding: 4rem 0 4rem 0
+    }
     .contact-container {
-        margin: 4rem 0 4rem 0;
-        width: 100%;
+        width: 90%;
     }
 
     .phone-icon, .clock-icon, .map-icon {
-        width: 6rem;
-        height: 6rem;
+        width: 4rem;
+        height: 4rem;
     }
 
     .contact-container .contact-data .contact-data-wrap .info-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        font-weight: 600;
     }
 
     .contact-container .contact-data .contact-data-wrap .info {
@@ -154,7 +164,7 @@
 
 @media screen and (min-width: 1650px) {
     .contact-container .contact-title p {
-        font-size: 7rem;
+        font-size: 5rem;
         margin-bottom: 4rem;
     }
 }

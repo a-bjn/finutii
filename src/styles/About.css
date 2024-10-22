@@ -1,4 +1,4 @@
-.about-us {
+.about {
   width: 100%;
   height: auto;
   background-color: #fffdee;
@@ -65,7 +65,15 @@
   margin: 0;
 }
 
-@media screen and (min-width: 100px) and (max-width: 768px) {
+.about-container .about-title p {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 2rem 0 2rem 0;
+  }
+
   .about-container .about-title p {
     font-size: 2.5rem;
     margin: 0;
@@ -124,6 +132,10 @@
 
   .about-container .about-title p {
     font-size: 5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #0e2750;
+    text-underline-offset: 2rem;
   }
 
   .about-container .box-wrap .about-wrap .info-container .about-sub-title p {

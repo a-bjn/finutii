@@ -32,7 +32,7 @@ const MapWithDirections = () => {
         />
         <Marker position={location} icon={customIcon}>
           <Popup>
-            Locatia ta
+            Reparatii TV Braila
           </Popup>
         </Marker>
       </MapContainer>
