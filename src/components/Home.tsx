@@ -3,7 +3,7 @@ import '../styles/Home.css';
 import { useState, useEffect } from 'react';
 
 const Home = () => {
-    const [isMobile, setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState(true);
 
     useEffect(() => {
         const handleResize = () => {

@@ -23,7 +23,13 @@ export default function BrandLogoGrid() {
       <div className="brand-grid">
         {brands.map((brand) => (
           <div key={brand.name} className="logo-wrapper">
-            <img src={brand.src} alt={`${brand.name} logo`} className="brand-logo" />
+            <img 
+              src={brand.src} 
+              alt={`${brand.name} logo`} 
+              className="brand-logo" 
+              title={`${brand.name} logo`} 
+              loading="lazy"
+            />
           </div>
         ))}
       </div>

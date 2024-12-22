@@ -160,6 +160,11 @@
     .contact-container .contact-data .contact-data-wrap {
         justify-content: space-between;
     }
+
+    .contact-container .contact-title p {
+        font-size: 5rem;
+        margin-bottom: 4rem;
+    }
 }
 
 @media screen and (min-width: 1650px) {

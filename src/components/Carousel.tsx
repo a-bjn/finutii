@@ -81,7 +81,15 @@ const Carousel: React.FC = () => {
         <Slider {...settings}>
           {images.map((img, index) => (
             <div key={index} className="carousel-slide">
-              <img src={img} alt={`Slide ${index + 1}`} className="carousel-image" />
+              <img 
+                src={img} 
+                alt={`Slide ${index + 1}`} 
+                className="carousel-image" 
+                title={`Slide ${index + 1}`} 
+                loading="lazy" 
+                width="680" 
+                height="383" 
+              />
             </div>
           ))}
         </Slider>

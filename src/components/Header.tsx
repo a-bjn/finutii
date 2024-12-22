@@ -3,7 +3,7 @@ import '../styles/App.css'
 import { useState, useEffect } from 'react';
 
 const Header = () => {
-    const [isMobile, setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState(true);
 
     useEffect(() => {
         const handleResize = () => {
